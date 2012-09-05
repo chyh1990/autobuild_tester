@@ -1,4 +1,4 @@
 #!/bin/sh
-sleep 14
+sleep 5
 ./test
 exit $?

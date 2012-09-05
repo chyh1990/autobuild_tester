@@ -21,5 +21,6 @@
 int main()
 {
   printf("hello bui!!!\n");
+  printf(a);
   return 0;
 }
