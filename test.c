@@ -20,6 +20,6 @@
 
 int main()
 {
-  printf("hello6\n");
+  printf("hello7\n");
   return 0;
 }
