@@ -1,3 +1,4 @@
 #!/bin/sh
 echo AutoBuild....
-exit 1
+make
+exit $?
