@@ -1,4 +1,4 @@
 #!/bin/sh
-echo AutoBuild..,
+echo AutoBuild..,.
 make
 exit $?
