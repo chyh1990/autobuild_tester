@@ -20,6 +20,6 @@
 
 int main()
 {
-  printf("hello2\n", ii);
+  printf("hello2\n", i);
   return 0;
 }
