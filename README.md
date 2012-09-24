@@ -37,7 +37,7 @@ Click Admin -> Service Hooks -> WebHook URLs.
 
 Configuration
 ===========
-To make it simple, all options are in git-build.py, and no extra configure files.
+To make it simple, all options are in gitbuild_config.py, and no extra configure files.
 
 + PORT_NUMBER: listening port of the HTTP server
 + CLIENT_IPS:  only POST requests from these hosts will trigger the auto-build.
@@ -60,5 +60,14 @@ When someone pulls commits to the Repo, it will trigger the auto-building and au
 This means a Git fetch action and then the *autobuild.sh* and *autotest.sh* will be run.
 You should make sure these two scripts are placed in the root of your target Repo properly.
 
+After you pull your commits to Github, Github will inform our HTTP server.
+
+*NOTE: Only commits whose message starts with AUTOTEST will trigger a rebuild and re-test.*
+
+Example:
+
+git commit -am"AUTOTEST blabla"
+
+git pull
 
 

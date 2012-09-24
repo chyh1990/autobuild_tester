@@ -5,13 +5,7 @@ import Queue
 import time, os, sys, popen2
 from threading import Thread
 
-PORT_NUMBER = 5909
-CLIENT_IPS = set(['207.97.227.253', '50.57.128.197', '108.171.174.178', '127.0.0.1','1.202.198.123']) 
-REPO_NAME = 'autobuild_tester'
-LOCAL_REPO = 'test_clone/autobuild_tester'
-REPORT_DIR =  os.path.join(os.getcwd(), "report")
-LOG_FILENAME = os.path.join(REPORT_DIR, "list.txt")
-LOG_FILE = open(LOG_FILENAME, "a+")
+from gitbuild_config import *
 
 def currentTimeString():
   s = time.strftime('%Y-%m-%d %H:%M:%S',time.localtime())
