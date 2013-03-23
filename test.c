@@ -21,7 +21,5 @@
 int main()
 {
   printf("hello buisadf\n");
-  return 1;
-  return 1;
   return 0;
 }
