@@ -24,5 +24,3 @@ int main()
   printf("hello buisadf\n");
   return 0;
 }
-int
-int
