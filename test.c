@@ -22,7 +22,6 @@ int main()
 {
   printf("hello buisadf\n");
   printf("hello buisadf\n");
-  re
   return 0;
 }
 int
