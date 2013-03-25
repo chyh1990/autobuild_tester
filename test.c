@@ -25,4 +25,3 @@ int main()
   printf("What!!!");
   return 0;
 }
-ret
