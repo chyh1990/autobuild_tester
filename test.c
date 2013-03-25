@@ -21,5 +21,6 @@
 int main()
 {
   printf("hello buisadf\n");
+  printf("hello buisadf\n");
   return 0;
 }
